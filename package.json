@@ -1,0 +1,24 @@
+{
+  "name": "rag-on-azure",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "node --env-file=.env main.js",
+    "embeddings": "node --env-file=.env createEmbeddings.js"
+  },
+  "keywords": [
+    "rag",
+    "azure",
+    "neon",
+    "postgres",
+    "serverless",
+    "neondatabase"
+  ],
+  "author": "Brian Holt",
+  "license": "Apache-2.0",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.4"
+  }
+}
