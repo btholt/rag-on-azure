@@ -12,6 +12,8 @@ I chose to use DeepSeek R1 (mostly because I hadn't tried it) and text-embedding
 
 ## Getting it running
 
+Be aware that even on a good internet connection, it takes a minute or so to get the full answer back.
+
 - Have Node.js 20.15ish+ installed (so we can use `--env-file` instead of `dotenv`).
 - Clone the repo
 - Run `npm install`
@@ -36,5 +38,10 @@ I chose to use DeepSeek R1 (mostly because I hadn't tried it) and text-embedding
   - You can definitely run the sample after only doing 100 embeddings or so - it's not necessary to do the whole db.
   - Keep an eye on it as sometimes you'll get rate limited
 
+## Credit
+
+I took heavy inspiration from [Pamela Fox's demos][pamela] she did with Burke Holland on the VS Code channel. Pamela makes amazing demos.
+
 [slides]: https://docs.google.com/presentation/d/1IUHl-McWjt4KWGKxGoW1LpS3QNOOsW1QMWAuhaedXw0/edit#slide=id.g3320d82e198_0_29
 [kaggle]: https://kaggle.com/datasets/nolanbconaway/pitchfork-data
+[pamela]: https://learn.microsoft.com/en-us/shows/visual-studio-code/building-a-rag-application-with-a-postgresql-database
