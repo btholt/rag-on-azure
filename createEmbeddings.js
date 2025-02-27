@@ -80,7 +80,7 @@ async function getReviews(sql) {
             FROM reviews r
             JOIN content c ON r.reviewid = c.reviewid
             LIMIT 5000
-            OFFSET 11000
+            OFFSET 16000
         `;
     console.log(`📚 Retrieved ${reviews.length} reviews from database`);
     return reviews;
